@@ -63,7 +63,7 @@ CREATE TABLE Autenticacao_Pag(
     Id_Usuario INT,
     Id_Pagamento INT,
     Numero_Cart VARCHAR(255) NOT NULL UNIQUE,
-    Cod_Seg INT NOT NULL UNIQUE,
+    Cod_Seg INT NOT NULL,
     Validade VARCHAR(255) NOT NULL,
     Nome_Cart VARCHAR(255) NOT NULL,
     Debito BOOLEAN,
